@@ -36,19 +36,19 @@ graph TD
 
 All new Epics start in Funnel. This state is used to capture potential needs before any commitment or prioritisation is made.
 
-> **Note:** If it is unclear whether a need or idea should become an Epic, start by creating an **Explore item** in Jira. This provides a blank space to investigate and discuss the idea.
+> **Note:** Sometimes it is unclear whether an potential area of concern has zero or a number of software requirements and indeed of any of these are large enough to be Epic Kanban System concerns. For such cases we recommend starting with a blank space to investigate and discuss; within the STFC Jira eco-system we created an **Explore** item type for this purpose, which simply just create a blank space.
 >
 > For example, if a new instrument is planned but there has been no discussion of its software needs, use an Explore item to investigate. Start the Explore in Funnel and move it to Done once exploration is complete. Epics may emerge as part of this process.
 
 ### 2. Reviewing
-**Purpose:** Initial refinement with ownership.
+**Purpose:** Initial refinement with or lead by the Epic owner.
 
-An Epic moves from Funnel to Reviewing once an Epic Owner with capacity has been identified. In this state, the Epic Owner refines the Epic, clarifies scope and intent, and prepares it for wider review.
+An Epic moves from Funnel to Reviewing once an Epic Owner with capacity has been identified. In this state, the Epic Owner with others refines the Epic, clarifies scope and intent, and prepares it for wider review.
 
 ### 3. Analysing
 **Purpose:** Ready for wider consumption and Board prioritisation.
 
-An Epic moves into Analysing when it is sufficiently well-formed for consideration by the Board. Before moving an Epic into this state, the Product Manager checks with the Epic Owner and seeks agreement from the Team Lead.
+An Epic moves into Analysing when it is sufficiently well-formed for consideration by the Board. Before moving an Epic into this state, the default approach at ISIS-STFC is that the Product Manager checks with the Epic Owner and seeks agreement from the Team Lead. The details of how this is adjusted to fit in with a given Epic Kanban System implementation - the key is that, when an Epic is moved from Reviewing to Analysing it is comprehensible enough to be assumed ready for wider consumption, consideration and decision on whether it is deemed valuable enough to go into the Ready (for implementation) state.
 
 **Board Decisions:**
 
@@ -95,4 +95,4 @@ The Board reviews Epics moved to Persevere between prioritisation events. If sig
 
 An Epic moves to Done when it is sufficiently completed, pivoted, or no longer a concern.
 
-> **Note:** For practical reasons, Epics in this state are periodically archived in Jira (moved to the Jira Archive).
+> **Note:** For practical reasons, Epics in this state are periodically archived.
