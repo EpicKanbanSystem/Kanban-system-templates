@@ -1,3 +1,7 @@
 # Kanban-system-templates
 
-Once you have a bunch of Epics what do you do with them? Hence this repo containing guidelines for this.
+Once you have a bunch of Epics what do you do with them? Hence this repo containing guidelines
+and Example implementations for this. This repo goes hand-in-hand with the Epic-templates repo.
+Epic-templates provides templates for articulating an Epic. This repo provides templates/examples/guidelines
+for what states an Epic can occupy and how Epics can move between states. Combined they provide an
+Epic Kanban System.
